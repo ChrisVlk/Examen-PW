@@ -18,9 +18,10 @@
 }
 
 .card-cover {
-    height: 160px;
+    height: 180px; 
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: transparent;
+    padding: 24px 24px 0 24px; 
 }
 
 .cover-image {
@@ -28,6 +29,7 @@
     height: 100%;
     object-fit: cover; 
     object-position: center; 
+    border-radius: 8px; 
     display: block;
 }
 
@@ -45,7 +47,7 @@
 
 .course-teacher {
     font-size: 1rem;
-    color: var(--text-muted);
+    color: var(--text-dark);
     margin: 0 0 24px 0;
     text-align: center;
 }
@@ -68,7 +70,6 @@
     font-size: 0.9rem;
     font-weight: 600;
 }
-
 
 .btn-action {
     display: block;          
